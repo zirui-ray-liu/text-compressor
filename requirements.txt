@@ -1,0 +1,5 @@
+torch==2.3.0
+triton
+flash-attn
+transformers==4.46.1
+matplotlib
