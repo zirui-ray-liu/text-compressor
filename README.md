@@ -13,7 +13,7 @@ bash scripts/eval.sh
 
 For the example text file `unittest.txt` (size: 4KB),the script should generate a compressed file `unittest.bin` (size: 542 Bytes) and a decompressed file `decmp_unittest.txt`.
 
-For reference, using XZ with the command  `xz-9 unittest.txt` produces a file `unittest.txt.xz` (size: 1.9KB), which is 3.5X larger than GPT2 based version. 
+For reference, using XZ with the command  `xz -9 unittest.txt` produces a file `unittest.txt.xz` (size: 1.9KB), which is 3.5X larger than GPT2 based version. 
 
 ## Notes
 
